@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odeweaver"
+version = "0.1.0"
+description = "Sparse polynomial ODE discovery with sequential thresholded least squares."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "sushanth"}]
+dependencies = ["numpy>=1.24"]
+
+[project.urls]
+Repository = "https://github.com/sushxnthd/odeweaver"
+Demo = "https://sushxnthd.github.io/odeweaver/"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+odeweaver = "odeweaver.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
