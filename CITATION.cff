@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: odeweaver
+message: "If you use this software, cite the repository."
+type: software
+authors:
+  - name: sushanth
+version: 0.1.0
+date-released: 2026-08-14
+repository-code: "https://github.com/sushxnthd/odeweaver"

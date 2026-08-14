@@ -1,0 +1,15 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "bug: "
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Include the smallest input and command that reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true

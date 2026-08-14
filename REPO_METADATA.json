@@ -1,0 +1,11 @@
+{
+  "name": "odeweaver",
+  "description": "Sparse polynomial ODE discovery with sequential thresholded least squares.",
+  "topics": [
+    "scientific-ml",
+    "machine-learning",
+    "numerical-methods",
+    "research-tools"
+  ],
+  "homepage": "https://sushxnthd.github.io/odeweaver/"
+}
